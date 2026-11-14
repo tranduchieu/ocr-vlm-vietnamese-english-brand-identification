@@ -77,11 +77,20 @@ The training script uses the training and validation splits of the development c
 If you use this code or the dataset, please cite:
 
 ```bibtex
-@inproceedings{tran2027brandidentification,
-  title     = {OCR-Assisted Vision-Language Models for Vietnamese--English Brand Identification: A Benchmark and Empirical Study},
+@unpublished{tran2026brandidentification,
+  title  = {OCR-Assisted Vision-Language Models for Vietnamese--English Brand Identification: A Benchmark and Empirical Study},
+  author = {Tran, Hieu D. and Phan, Tai T. and Nguyen, Ngan H. and Le, Nhi N. T. and Duong, Nam H. and Le, Thi-Hong-Cuc and Vo, Khuong D. and Quan, Tho T.},
+  note   = {Manuscript submitted to the FISU Joint Conference on Artificial Intelligence (FJCAI) 2027},
+  year   = {2026}
+}
+
+@misc{tran2026branddataset,
+  title     = {Vietnamese--English Brand Identification Dataset: Development Collection and Independent Benchmark},
   author    = {Tran, Hieu D. and Phan, Tai T. and Nguyen, Ngan H. and Le, Nhi N. T. and Duong, Nam H. and Le, Thi-Hong-Cuc and Vo, Khuong D. and Quan, Tho T.},
-  booktitle = {Proceedings of the FISU Joint Conference on Artificial Intelligence (FJCAI)},
-  year      = {2027}
+  publisher = {Zenodo},
+  year      = {2026},
+  doi       = {10.5281/zenodo.24212709},
+  url       = {https://doi.org/10.5281/zenodo.24212709}
 }
 ```
 
