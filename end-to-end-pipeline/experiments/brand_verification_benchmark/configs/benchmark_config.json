@@ -1,0 +1,42 @@
+{
+  "benchmark_name": "brand_verification_benchmark",
+  "benchmark_version": "0.1.0-prep",
+  "paths": {
+    "gt_csv": "hackathon_benchmark/hackathon_benchmark_dataset/benchmark_gt_final.csv",
+    "image_dir": "hackathon_benchmark/hackathon_benchmark_dataset",
+    "validation_split_note": "No separate 427-image validation JSONL/CSV exists in this repo layout yet. data/processed/val.jsonl (427 rows) is the ORIGINAL LoRA validation set from src/build_dataset.py -- reuse it for M3 policy/threshold selection per the freeze protocol, but it is NOT the same file as the 582-image blind benchmark GT and must never be merged with it.",
+    "lora_validation_jsonl": "data/processed/val.jsonl"
+  },
+  "model": {
+    "base_model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "resolved_revision": "UNRESOLVED -- must be recorded at first download time, see manifests/freeze_manifest.json",
+    "lora_dir": "models/qwen25vl3b-lora"
+  },
+  "ocr": {
+    "ocr_conf_min_inherited_from_production": 0.70,
+    "note": "Value must always be read from pipeline.OCR_CONF_MIN at run time, not hardcoded here. This field documents the value observed in src/pipeline.py at audit time (2026-09-17) for human reference only."
+  },
+  "image_preprocessing": {
+    "min_pixels_inherited_from_production": 16384,
+    "max_pixels_inherited_from_production": 262144,
+    "note": "128x128 / 512x512. Must always be read from pipeline.MIN_PIXELS/MAX_PIXELS at run time."
+  },
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens_primary_call": 200,
+    "max_new_tokens_retry_call": 200,
+    "temperature": "N/A (do_sample=False, greedy decoding per pipeline.py VLM.batch/VLM.__call__)",
+    "note": "Retry call uses RETRY_TMPL prompt override, not the primary USER_TMPL. See pipeline.py:544-545,86-90."
+  },
+  "batching": {
+    "batch_size": 8,
+    "note": "8 is pipeline.py's own CLI default (--batch). scripts/3_sinh_bai_nop.sh and 4_do_lai.sh historically used 16 on the original (H100) dev machine -- that choice is NOT assumed valid for this machine's 16GB card and must be re-selected, not copied."
+  },
+  "determinism": {
+    "seed_note": "Generation is greedy (do_sample=False) so no sampling seed is consumed by the VLM. No random seed is used anywhere in src/pipeline.py's inference path. Any seed needed is only for benchmark-side bootstrap resampling (see bootstrap_ci.py), not for generation."
+  },
+  "output_dir": "experiments/brand_verification_benchmark/artifacts",
+  "expected_blind_test_row_count": 582,
+  "frozen": false,
+  "frozen_at": null
+}

@@ -1,0 +1,338 @@
+{
+  "B0": {
+    "brand_p": 0.5508,
+    "brand_r": 0.2814,
+    "brand_f1": 0.3725,
+    "product_f1": 0.2479,
+    "ubi": 0.1443,
+    "full": {
+      "brand_prf1": {
+        "tp": 103,
+        "fp": 84,
+        "fn": 263,
+        "precision": 0.5508,
+        "recall": 0.2814,
+        "f1": 0.3725
+      },
+      "product_prf1": {
+        "tp": 58,
+        "fp": 98,
+        "fn": 254,
+        "precision": 0.3718,
+        "recall": 0.1859,
+        "f1": 0.2479
+      },
+      "ubr": {
+        "unsupported_released": 84,
+        "total_released": 187,
+        "ubr": 0.4492,
+        "ubi": 0.1443,
+        "images_with_unsupported": 84,
+        "total_images": 582
+      },
+      "cbr": {
+        "correct_candidates": 173,
+        "correct_retained": 173,
+        "cbr": 1.0
+      },
+      "rbl": {
+        "leaked": 0,
+        "total_rejected": 0,
+        "rbl": 0.0
+      },
+      "false_brand_release_rate": {
+        "brand_negative_images": 277,
+        "false_releases": 31,
+        "false_brand_release_rate": 0.1119
+      }
+    }
+  },
+  "B1": {
+    "brand_p": 0.5652,
+    "brand_r": 0.3197,
+    "brand_f1": 0.4084,
+    "product_f1": 0.3222,
+    "ubi": 0.1546,
+    "full": {
+      "brand_prf1": {
+        "tp": 117,
+        "fp": 90,
+        "fn": 249,
+        "precision": 0.5652,
+        "recall": 0.3197,
+        "f1": 0.4084
+      },
+      "product_prf1": {
+        "tp": 82,
+        "fp": 115,
+        "fn": 230,
+        "precision": 0.4162,
+        "recall": 0.2628,
+        "f1": 0.3222
+      },
+      "ubr": {
+        "unsupported_released": 90,
+        "total_released": 207,
+        "ubr": 0.4348,
+        "ubi": 0.1546,
+        "images_with_unsupported": 90,
+        "total_images": 582
+      },
+      "cbr": {
+        "correct_candidates": 168,
+        "correct_retained": 168,
+        "cbr": 1.0
+      },
+      "rbl": {
+        "leaked": 0,
+        "total_rejected": 0,
+        "rbl": 0.0
+      },
+      "false_brand_release_rate": {
+        "brand_negative_images": 277,
+        "false_releases": 34,
+        "false_brand_release_rate": 0.1227
+      }
+    }
+  },
+  "L0": {
+    "brand_p": 0.7362,
+    "brand_r": 0.4727,
+    "brand_f1": 0.5757,
+    "product_f1": 0.5176,
+    "ubi": 0.1014,
+    "full": {
+      "brand_prf1": {
+        "tp": 173,
+        "fp": 62,
+        "fn": 193,
+        "precision": 0.7362,
+        "recall": 0.4727,
+        "f1": 0.5757
+      },
+      "product_prf1": {
+        "tp": 125,
+        "fp": 46,
+        "fn": 187,
+        "precision": 0.731,
+        "recall": 0.4006,
+        "f1": 0.5176
+      },
+      "ubr": {
+        "unsupported_released": 62,
+        "total_released": 235,
+        "ubr": 0.2638,
+        "ubi": 0.1014,
+        "images_with_unsupported": 59,
+        "total_images": 582
+      },
+      "cbr": {
+        "correct_candidates": 176,
+        "correct_retained": 176,
+        "cbr": 1.0
+      },
+      "rbl": {
+        "leaked": 0,
+        "total_rejected": 0,
+        "rbl": 0.0
+      },
+      "false_brand_release_rate": {
+        "brand_negative_images": 277,
+        "false_releases": 11,
+        "false_brand_release_rate": 0.0397
+      }
+    }
+  },
+  "M0": {
+    "brand_p": 0.7276,
+    "brand_r": 0.5546,
+    "brand_f1": 0.6295,
+    "product_f1": 0.566,
+    "ubi": 0.1254,
+    "full": {
+      "brand_prf1": {
+        "tp": 203,
+        "fp": 76,
+        "fn": 163,
+        "precision": 0.7276,
+        "recall": 0.5546,
+        "f1": 0.6295
+      },
+      "product_prf1": {
+        "tp": 148,
+        "fp": 63,
+        "fn": 164,
+        "precision": 0.7014,
+        "recall": 0.4744,
+        "f1": 0.566
+      },
+      "ubr": {
+        "unsupported_released": 76,
+        "total_released": 279,
+        "ubr": 0.2724,
+        "ubi": 0.1254,
+        "images_with_unsupported": 73,
+        "total_images": 582
+      },
+      "cbr": {
+        "correct_candidates": 205,
+        "correct_retained": 205,
+        "cbr": 1.0
+      },
+      "rbl": {
+        "leaked": 0,
+        "total_rejected": 0,
+        "rbl": 0.0
+      },
+      "false_brand_release_rate": {
+        "brand_negative_images": 277,
+        "false_releases": 12,
+        "false_brand_release_rate": 0.0433
+      }
+    }
+  },
+  "M1": {
+    "brand_p": 0.7312,
+    "brand_r": 0.5055,
+    "brand_f1": 0.5977,
+    "product_f1": 0.5643,
+    "ubi": 0.1117,
+    "full": {
+      "brand_prf1": {
+        "tp": 185,
+        "fp": 68,
+        "fn": 181,
+        "precision": 0.7312,
+        "recall": 0.5055,
+        "f1": 0.5977
+      },
+      "product_prf1": {
+        "tp": 147,
+        "fp": 62,
+        "fn": 165,
+        "precision": 0.7033,
+        "recall": 0.4712,
+        "f1": 0.5643
+      },
+      "ubr": {
+        "unsupported_released": 68,
+        "total_released": 253,
+        "ubr": 0.2688,
+        "ubi": 0.1117,
+        "images_with_unsupported": 65,
+        "total_images": 582
+      },
+      "cbr": {
+        "correct_candidates": 205,
+        "correct_retained": 187,
+        "cbr": 0.9122
+      },
+      "rbl": {
+        "leaked": 0,
+        "total_rejected": 26,
+        "rbl": 0.0
+      },
+      "false_brand_release_rate": {
+        "brand_negative_images": 277,
+        "false_releases": 11,
+        "false_brand_release_rate": 0.0397
+      }
+    }
+  },
+  "M2": {
+    "brand_p": 0.737,
+    "brand_r": 0.5437,
+    "brand_f1": 0.6258,
+    "product_f1": 0.566,
+    "ubi": 0.1168,
+    "full": {
+      "brand_prf1": {
+        "tp": 199,
+        "fp": 71,
+        "fn": 167,
+        "precision": 0.737,
+        "recall": 0.5437,
+        "f1": 0.6258
+      },
+      "product_prf1": {
+        "tp": 148,
+        "fp": 63,
+        "fn": 164,
+        "precision": 0.7014,
+        "recall": 0.4744,
+        "f1": 0.566
+      },
+      "ubr": {
+        "unsupported_released": 71,
+        "total_released": 270,
+        "ubr": 0.263,
+        "ubi": 0.1168,
+        "images_with_unsupported": 68,
+        "total_images": 582
+      },
+      "cbr": {
+        "correct_candidates": 205,
+        "correct_retained": 201,
+        "cbr": 0.9805
+      },
+      "rbl": {
+        "leaked": 0,
+        "total_rejected": 9,
+        "rbl": 0.0
+      },
+      "false_brand_release_rate": {
+        "brand_negative_images": 277,
+        "false_releases": 12,
+        "false_brand_release_rate": 0.0433
+      }
+    }
+  },
+  "M3": {
+    "brand_p": 0.737,
+    "brand_r": 0.5437,
+    "brand_f1": 0.6258,
+    "product_f1": 0.566,
+    "ubi": 0.1168,
+    "full": {
+      "brand_prf1": {
+        "tp": 199,
+        "fp": 71,
+        "fn": 167,
+        "precision": 0.737,
+        "recall": 0.5437,
+        "f1": 0.6258
+      },
+      "product_prf1": {
+        "tp": 148,
+        "fp": 63,
+        "fn": 164,
+        "precision": 0.7014,
+        "recall": 0.4744,
+        "f1": 0.566
+      },
+      "ubr": {
+        "unsupported_released": 71,
+        "total_released": 270,
+        "ubr": 0.263,
+        "ubi": 0.1168,
+        "images_with_unsupported": 68,
+        "total_images": 582
+      },
+      "cbr": {
+        "correct_candidates": 205,
+        "correct_retained": 201,
+        "cbr": 0.9805
+      },
+      "rbl": {
+        "leaked": 0,
+        "total_rejected": 9,
+        "rbl": 0.0
+      },
+      "false_brand_release_rate": {
+        "brand_negative_images": 277,
+        "false_releases": 12,
+        "false_brand_release_rate": 0.0433
+      }
+    }
+  }
+}

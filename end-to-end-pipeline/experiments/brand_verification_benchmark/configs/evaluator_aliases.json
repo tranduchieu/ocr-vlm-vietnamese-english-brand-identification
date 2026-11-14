@@ -1,0 +1,20 @@
+{
+  "schema_version": "0.1.0-prep",
+  "frozen": true,
+  "frozen_at": "2026-09-17T13:20:00+07:00",
+  "note": "Canonical alias rules for the INDEPENDENT evaluator (scripts/score_entities.py). Frozen EMPTY 2026-09-17 alongside the M3 policy freeze (Batch B) -- no alias was derived from validation predictions or from the 582 blind-set predictions, per explicit instruction not to opportunistically add aliases because they would improve validation numbers. If aliases are ever needed (e.g. 'coca cola' == 'coca-cola'), they must be authored from the GT/brand-list only, before blind scoring, and this file must be re-frozen (sha256 recorded in freeze_manifest.json) after any edit.",
+  "normalization": {
+    "unicode_form": "NFC",
+    "case": "casefold",
+    "whitespace": "collapse runs of whitespace to a single space, strip leading/trailing",
+    "punctuation": "strip characters outside [\\w\\s] after casefold, mirroring hackathon-brief.md 5.1's 'lowercase, bo dau cau thua' rule",
+    "accent_handling": "NOT stripped by default -- GT brand strings preserve original diacritics per hackathon_benchmark's own labeling policy (see hackathon_benchmark/README_HUMAN_VERIFICATION_UI.md: brand names must not be translated or have their diacritics removed). Matching is diacritic-sensitive unless a specific alias below says otherwise."
+  },
+  "matching_rule": "partial/containment match counts as correct, per hackathon-brief.md 5.1 ('vaseline' GT matches 'vaseline viet nam' prediction) -- normalized GT string must appear as a contiguous substring of the normalized prediction string. This is a plain Python `in` check on NORMALIZED text, not pipeline.contains()'s SequenceMatcher-based fuzzy logic.",
+  "aliases": [],
+  "aliases_schema_example": {
+    "canonical": "string -- the form used in GT",
+    "accepted_variants": ["list of strings that should also count as a match"],
+    "justification": "string -- why this alias is safe, cited from GT inspection, not from blind predictions"
+  }
+}

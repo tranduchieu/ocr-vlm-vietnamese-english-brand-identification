@@ -1,0 +1,17 @@
+# Python 3.9-3.13 (paddlepaddle has no wheel for 3.14).
+# torch / torchvision: install from the CUDA 12.8 index first:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+paddlepaddle-gpu==3.3.1    # CPU fallback: paddlepaddle==3.3.1 (works, much slower OCR detection)
+paddleocr==3.7.0
+vietocr==0.3.13
+transformers==5.14.1
+peft==0.20.0
+accelerate==1.14.0
+qwen-vl-utils==0.0.14
+fastapi
+uvicorn
+python-multipart
+pillow
+numpy
+safetensors
+pytest                     # tests only

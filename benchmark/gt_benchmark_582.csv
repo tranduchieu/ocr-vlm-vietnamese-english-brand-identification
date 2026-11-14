@@ -1,0 +1,583 @@
+image_id,filename,gt_brands,gt_products,gt_brand_evidence
+bench_0001,images/bench_0001.jpg,,,
+bench_0002,images/bench_0002.jpg,,,
+bench_0003,images/bench_0003.jpg,,,
+bench_0004,images/bench_0004.jpg,,,
+bench_0005,images/bench_0005.jpg,,,
+bench_0006,images/bench_0006.jpg,,,
+bench_0007,images/bench_0007.jpg,,,
+bench_0008,images/bench_0008.jpg,,,
+bench_0009,images/bench_0009.jpg,,,
+bench_0010,images/bench_0010.jpg,,,
+bench_0011,images/bench_0011.jpg,,,
+bench_0012,images/bench_0012.jpg,,,
+bench_0013,images/bench_0013.jpg,,,
+bench_0014,images/bench_0014.jpg,,,
+bench_0015,images/bench_0015.jpg,,,
+bench_0016,images/bench_0016.jpg,,,
+bench_0017,images/bench_0017.jpg,,,
+bench_0018,images/bench_0018.jpg,,,
+bench_0019,images/bench_0019.jpg,,,
+bench_0020,images/bench_0020.jpg,,,
+bench_0021,images/bench_0021.jpg,,,
+bench_0022,images/bench_0022.jpg,,,
+bench_0023,images/bench_0023.jpg,EM MAISON,,text
+bench_0024,images/bench_0024.jpg,EM MAISON,,logo
+bench_0025,images/bench_0025.jpg,EM MAISON,,text
+bench_0026,images/bench_0026.jpg,EM MAISON,,text
+bench_0027,images/bench_0027.jpg,EM MAISON,,both
+bench_0028,images/bench_0028.jpg,,,
+bench_0029,images/bench_0029.jpg,EM MAISON,,text
+bench_0030,images/bench_0030.jpg,EM MAISON,,text
+bench_0031,images/bench_0031.jpg,EM MAISON,,text
+bench_0032,images/bench_0032.jpg,,,
+bench_0033,images/bench_0033.jpg,EM MAISON,,logo
+bench_0034,images/bench_0034.jpg,,,
+bench_0035,images/bench_0035.jpg,,,
+bench_0036,images/bench_0036.jpg,,,
+bench_0037,images/bench_0037.jpg,Takato;Nutifood;Grow PLUS+;Huggies;animo;Alphagen,Tã Sữa;Giặt Xả;Bình Sữa,text;text;text;text;text;text
+bench_0038,images/bench_0038.jpg,Takato,Tã quần Takato,text
+bench_0039,images/bench_0039.jpg,animo;concung,TÃ QUẦN ANIMO SIÊU MỀM THOÁNG,text;logo
+bench_0040,images/bench_0040.jpg,HUGGIES;concung,TÃ QUẦN HUGGIES FREE SENSE,text;text
+bench_0041,images/bench_0041.jpg,Huggies,pants,text
+bench_0042,images/bench_0042.jpg,HIỀN LÝ,MUỐI COFFEE;MÊ COFFEE GU ĐẮM;Cà phê KEM TRỨNG,text
+bench_0043,images/bench_0043.jpg,HIỀN LÝ,MÊ COFFEE,text
+bench_0044,images/bench_0044.jpg,HIỀN LÝ,CỐM NON,text
+bench_0045,images/bench_0045.jpg,HIỀN LÝ,CỐM NON,both
+bench_0046,images/bench_0046.jpg,HIỀN LÝ,BISCOFF TEA,text
+bench_0047,images/bench_0047.jpg,Nihongo,Bộ giáo trình tiếng Nhật;Vở Klong;Túi tote;Bút chì Thiên Long,text
+bench_0048,images/bench_0048.jpg,Nihongo;Nakki;NAOKI,Vở KLONG;TÚI TOTE;BÚT CHÌ THIÊN LONG,text;text;logo
+bench_0049,images/bench_0049.jpg,,,
+bench_0050,images/bench_0050.jpg,,,
+bench_0051,images/bench_0051.jpg,,,
+bench_0052,images/bench_0052.jpg,,,
+bench_0053,images/bench_0053.jpg,,,
+bench_0054,images/bench_0054.jpg,,,
+bench_0055,images/bench_0055.jpg,Quán Má Năm,BÁNH THẠCH RAU CÂU,text
+bench_0056,images/bench_0056.jpg,,,
+bench_0057,images/bench_0057.jpg,,,
+bench_0058,images/bench_0058.jpg,,,
+bench_0059,images/bench_0059.jpg,,,
+bench_0060,images/bench_0060.jpg,,,
+bench_0061,images/bench_0061.jpg,,,
+bench_0062,images/bench_0062.jpg,,,
+bench_0063,images/bench_0063.jpg,,,
+bench_0064,images/bench_0064.jpg,,,
+bench_0065,images/bench_0065.jpg,,,
+bench_0066,images/bench_0066.jpg,Yakult,,text
+bench_0067,images/bench_0067.jpg,Yakult,,text
+bench_0068,images/bench_0068.jpg,,,
+bench_0069,images/bench_0069.jpg,,,
+bench_0070,images/bench_0070.jpg,,,
+bench_0071,images/bench_0071.jpg,MYTEA,MATCHA Kem Cheese,text
+bench_0072,images/bench_0072.jpg,,,
+bench_0073,images/bench_0073.jpg,,,
+bench_0074,images/bench_0074.jpg,,,
+bench_0075,images/bench_0075.jpg,,,
+bench_0076,images/bench_0076.jpg,,,
+bench_0077,images/bench_0077.jpg,,,
+bench_0078,images/bench_0078.jpg,SUREGROW,,text
+bench_0079,images/bench_0079.jpg,SUREGROW,,text
+bench_0080,images/bench_0080.jpg,,,
+bench_0081,images/bench_0081.jpg,,,
+bench_0082,images/bench_0082.jpg,SUREGROW,,text
+bench_0083,images/bench_0083.jpg,,,
+bench_0084,images/bench_0084.jpg,,,
+bench_0085,images/bench_0085.jpg,,,
+bench_0086,images/bench_0086.jpg,,,
+bench_0087,images/bench_0087.jpg,,,
+bench_0088,images/bench_0088.jpg,,SỮA ENSURE,
+bench_0089,images/bench_0089.jpg,LA ROCHE-POSAY,EFFACLAR,text
+bench_0090,images/bench_0090.jpg,Laroche-Posay,SỮA RỬA MẶT DA DẦU;EFFACLAR,text
+bench_0091,images/bench_0091.jpg,,,
+bench_0092,images/bench_0092.jpg,,,
+bench_0093,images/bench_0093.jpg,Kichitachi,,both
+bench_0094,images/bench_0094.jpg,Kichi,TÚI TRỮ SỮA,text
+bench_0095,images/bench_0095.jpg,,,
+bench_0096,images/bench_0096.jpg,,,
+bench_0097,images/bench_0097.jpg,,,
+bench_0098,images/bench_0098.jpg,Mầm Xanh,KHOAI LANG;TRỨNG;BẮP;CHUỐI SÁP;SỮA HẠT,text
+bench_0099,images/bench_0099.jpg,,,
+bench_0100,images/bench_0100.jpg,,,
+bench_0101,images/bench_0101.jpg,,,
+bench_0102,images/bench_0102.jpg,,,
+bench_0103,images/bench_0103.jpg,CBKSPORTCLUB,,text
+bench_0104,images/bench_0104.jpg,,,
+bench_0105,images/bench_0105.jpg,,,
+bench_0106,images/bench_0106.jpg,,,
+bench_0107,images/bench_0107.jpg,,,
+bench_0108,images/bench_0108.jpg,,,
+bench_0109,images/bench_0109.jpg,,,
+bench_0110,images/bench_0110.jpg,NESPRESSO,,text
+bench_0111,images/bench_0111.jpg,,,
+bench_0112,images/bench_0112.jpg,Atatana,,text
+bench_0113,images/bench_0113.jpg,Amon,,logo
+bench_0114,images/bench_0114.jpg,Amoni,,logo
+bench_0115,images/bench_0115.jpg,Amon,,logo
+bench_0116,images/bench_0116.jpg,,,
+bench_0117,images/bench_0117.jpg,,,
+bench_0118,images/bench_0118.jpg,,,
+bench_0119,images/bench_0119.jpg,NUTRICARE;coloscare,SỮA DINH DƯỠNG COLOSCARE,text;text
+bench_0120,images/bench_0120.jpg,NUTRICARE,SỮA NON 24h;COLOS care 24h,text
+bench_0121,images/bench_0121.jpg,COLOS,GROW PLUS,text
+bench_0122,images/bench_0122.jpg,COLOS,GROW PLUS,text
+bench_0123,images/bench_0123.jpg,NUTRICARE;COLOS,GROW PLUS,text;text
+bench_0124,images/bench_0124.jpg,NUTRICE,COLOS+ GROW PLUS,logo
+bench_0125,images/bench_0125.jpg,,,
+bench_0126,images/bench_0126.jpg,,,
+bench_0127,images/bench_0127.jpg,Calokid;VitaDairy,,text;text
+bench_0128,images/bench_0128.jpg,Maggi,DẦU HÀO,text
+bench_0129,images/bench_0129.jpg,Maggi,DẦU HÀO,text
+bench_0130,images/bench_0130.jpg,Maggi,DẦU HÀO,logo
+bench_0131,images/bench_0131.jpg,,DẦU HÀO,
+bench_0132,images/bench_0132.jpg,,,
+bench_0133,images/bench_0133.jpg,,,
+bench_0134,images/bench_0134.jpg,,,
+bench_0135,images/bench_0135.jpg,,,
+bench_0136,images/bench_0136.jpg,,,
+bench_0137,images/bench_0137.jpg,,,
+bench_0138,images/bench_0138.jpg,,,
+bench_0139,images/bench_0139.jpg,Aptamil;NAN;Abbott;Nutifood,NAN GROW;Optimum Gold;Abbott GROW;Grow PLUS+,logo;logo;logo;text
+bench_0140,images/bench_0140.jpg,GROW PLUS,,text
+bench_0141,images/bench_0141.jpg,concung,GROW GOLD,logo
+bench_0142,images/bench_0142.jpg,concung;Nutifood;Grow PLUS+,Xe chòi;Grow PLUS+,logo;text;text
+bench_0143,images/bench_0143.jpg,,,
+bench_0144,images/bench_0144.jpg,DUTCH LADY,Sữa Dinh Dưỡng có đường,both
+bench_0145,images/bench_0145.jpg,DUTCH LADY,Sữa Dinh Dưỡng hương dâu,both
+bench_0146,images/bench_0146.jpg,DUTCH LADY,Sữa Dinh Dưỡng không đường,both
+bench_0147,images/bench_0147.jpg,Baby Steps,,text
+bench_0148,images/bench_0148.jpg,,,
+bench_0149,images/bench_0149.jpg,D-nee Organic,NƯỚC RỬA BÌNH SỮA VÀ NÚM TI,both
+bench_0150,images/bench_0150.jpg,D-nee,Nước rửa bình sữa D-nee cho trẻ sơ sinh;D-nee Organic,both
+bench_0151,images/bench_0151.jpg,NUTRICARE,Sữa METACARE ECO,logo
+bench_0152,images/bench_0152.jpg,NUTRICARE,meta care;meta care eco,text
+bench_0153,images/bench_0153.jpg,,,
+bench_0154,images/bench_0154.jpg,,,
+bench_0155,images/bench_0155.jpg,,,
+bench_0156,images/bench_0156.jpg,,,
+bench_0157,images/bench_0157.jpg,,,
+bench_0158,images/bench_0158.jpg,,,
+bench_0159,images/bench_0159.jpg,Trà Sữa Cô Phượng,Trà Lưu,text
+bench_0160,images/bench_0160.jpg,Trà Sữa Cô Phượng,Trà Hoa Quả Nhiệt Đới,both
+bench_0161,images/bench_0161.jpg,,,
+bench_0162,images/bench_0162.jpg,,,
+bench_0163,images/bench_0163.jpg,,,
+bench_0164,images/bench_0164.jpg,,,
+bench_0165,images/bench_0165.jpg,,,
+bench_0166,images/bench_0166.jpg,,,
+bench_0167,images/bench_0167.jpg,,,
+bench_0168,images/bench_0168.jpg,Abbott,PediaSure,logo
+bench_0169,images/bench_0169.jpg,Abbott,PediaSure,logo
+bench_0170,images/bench_0170.jpg,,,
+bench_0171,images/bench_0171.jpg,Abbott;PediaSure,Sữa bột PediaSure,text;logo
+bench_0172,images/bench_0172.jpg,Abbott,Sữa Similac,logo
+bench_0173,images/bench_0173.jpg,,,
+bench_0174,images/bench_0174.jpg,Aptamil,Profutura,text
+bench_0175,images/bench_0175.jpg,VitaDairy,Oggi GOLD,both
+bench_0176,images/bench_0176.jpg,,OGGI GOLD,
+bench_0177,images/bench_0177.jpg,OGGI,OGGI GOLD,text
+bench_0178,images/bench_0178.jpg,morinaga,HAGUKUMI,logo
+bench_0179,images/bench_0179.jpg,morinaga,CHILMIL,logo
+bench_0180,images/bench_0180.jpg,morinaga,,text
+bench_0181,images/bench_0181.jpg,D-nee,D-nee Organic Head & Body Baby Wash,text
+bench_0182,images/bench_0182.jpg,D-nee,D-nee Organic HEAD & BODY BABY WASH,both
+bench_0183,images/bench_0183.jpg,D-nee,HEAD & BODY BABY WASH,both
+bench_0184,images/bench_0184.jpg,D-nee,HEAD & BODY BABY WASH,text
+bench_0185,images/bench_0185.jpg,D-nee,D-nee Organic HEAD & BODY BABY WASH,text
+bench_0186,images/bench_0186.jpg,D-nee,D-nee Organic HEAD & BODY BABY WASH,text
+bench_0187,images/bench_0187.jpg,,,
+bench_0188,images/bench_0188.jpg,,,
+bench_0189,images/bench_0189.jpg,NewOld,,text
+bench_0190,images/bench_0190.jpg,,,
+bench_0191,images/bench_0191.jpg,NewOld,,text
+bench_0192,images/bench_0192.jpg,,,
+bench_0193,images/bench_0193.jpg,,,
+bench_0194,images/bench_0194.jpg,ESSENTIALS,,text
+bench_0195,images/bench_0195.jpg,ESSENTIALS,,text
+bench_0196,images/bench_0196.jpg,ESSENTIALS,,text
+bench_0197,images/bench_0197.jpg,ESSENTIALS,,text
+bench_0198,images/bench_0198.jpg,ESSENTIALS,,text
+bench_0199,images/bench_0199.jpg,ESSENTIALS,,text
+bench_0200,images/bench_0200.jpg,NHA KHOA OLYMPIA,,text
+bench_0201,images/bench_0201.jpg,NHA KHOA OLYMPIA,,text
+bench_0202,images/bench_0202.jpg,NHA KHOA OLYMPIA,,text
+bench_0203,images/bench_0203.jpg,OGGI;VitaDairy,OGGI GOLD;OGGI GOLD Pro;OGGI GOLD Sweet,both;logo
+bench_0204,images/bench_0204.jpg,Aptamil,Similac,both
+bench_0205,images/bench_0205.jpg,OGGI;VitaDairy,OGGI GOLD,text;logo
+bench_0206,images/bench_0206.jpg,OGGI,OGGI GOLD,both
+bench_0207,images/bench_0207.jpg,,,
+bench_0208,images/bench_0208.jpg,Abbott,nutrition powder,text
+bench_0209,images/bench_0209.jpg,Ensure,nutrition powder,text
+bench_0210,images/bench_0210.jpg,Abbott,nutrition powder,logo
+bench_0211,images/bench_0211.jpg,,,
+bench_0212,images/bench_0212.jpg,NUTRI-HMO,Aplenest GOLD;MIEMIE;GROW A+,text
+bench_0213,images/bench_0213.jpg,Aplenest,YẾN SÀO CAO CẤP,text
+bench_0214,images/bench_0214.jpg,Aplenest,Aplenest GOLD,text
+bench_0215,images/bench_0215.jpg,NUTRI-HMO;GROWA+,NUTRI-HMO GrowA+,text;text
+bench_0216,images/bench_0216.jpg,,,
+bench_0217,images/bench_0217.jpg,,,
+bench_0218,images/bench_0218.jpg,Ensure,Ensure GOLD,text
+bench_0219,images/bench_0219.jpg,,,
+bench_0220,images/bench_0220.jpg,VitaDairy;ColosBaby,ColosBaby Lactoferrin,text;text
+bench_0221,images/bench_0221.jpg,ColosBaby;Lactoferrin,ColosBaby LACTOFERRIN,text;text
+bench_0222,images/bench_0222.jpg,Heineken,Heineken SILVER,text
+bench_0223,images/bench_0223.jpg,,,
+bench_0224,images/bench_0224.jpg,,,
+bench_0225,images/bench_0225.jpg,,,
+bench_0226,images/bench_0226.jpg,,,
+bench_0227,images/bench_0227.jpg,,,
+bench_0228,images/bench_0228.jpg,,,
+bench_0229,images/bench_0229.jpg,,,
+bench_0230,images/bench_0230.jpg,STRONGBOW,,text
+bench_0231,images/bench_0231.jpg,,,
+bench_0232,images/bench_0232.jpg,,,
+bench_0233,images/bench_0233.jpg,,,
+bench_0234,images/bench_0234.jpg,,,
+bench_0235,images/bench_0235.jpg,,,
+bench_0236,images/bench_0236.jpg,,,
+bench_0237,images/bench_0237.jpg,,,
+bench_0238,images/bench_0238.jpg,,,
+bench_0239,images/bench_0239.jpg,,,
+bench_0240,images/bench_0240.jpg,,,
+bench_0241,images/bench_0241.jpg,,,
+bench_0242,images/bench_0242.jpg,,,
+bench_0243,images/bench_0243.jpg,,,
+bench_0244,images/bench_0244.jpg,,,
+bench_0245,images/bench_0245.jpg,Aptamil,APTAMIL NEW ZEALAND SỐ 4;APTAMIL KID;APTAMIL SUPER GOLD,text
+bench_0246,images/bench_0246.jpg,Aptamil,Aptamil Kid;Aptamil Super Gold;iPhone 18 Pro Max,text
+bench_0247,images/bench_0247.jpg,Aptamil,Aptamil New Zealand Số 4;Aptamil Kid;Aptamil Super Gold;iPhone 18 Pro Max,text
+bench_0248,images/bench_0248.jpg,Aptamil;iPhone,Aptamil New Zealand Số 4;Aptamil Kid;Aptamil Super Gold;iPhone 18 Pro Max,text;text
+bench_0249,images/bench_0249.jpg,,,
+bench_0250,images/bench_0250.jpg,,,
+bench_0251,images/bench_0251.jpg,DUTCH LADY,OmegaSmart,logo
+bench_0252,images/bench_0252.jpg,,,
+bench_0253,images/bench_0253.jpg,Vinamilk,SỮA TƯƠI NGUYÊN CHẤT TIỆT TRÙNG,text
+bench_0254,images/bench_0254.jpg,,,
+bench_0255,images/bench_0255.jpg,Grab,,both
+bench_0256,images/bench_0256.jpg,VitaDairy,ColosBaby,logo
+bench_0257,images/bench_0257.jpg,,,
+bench_0258,images/bench_0258.jpg,,,
+bench_0259,images/bench_0259.jpg,,,
+bench_0260,images/bench_0260.jpg,,,
+bench_0261,images/bench_0261.jpg,,,
+bench_0262,images/bench_0262.jpg,,,
+bench_0263,images/bench_0263.jpg,,,
+bench_0264,images/bench_0264.jpg,,,
+bench_0265,images/bench_0265.jpg,UV,UV prevent sun;UV Super prevent,text
+bench_0266,images/bench_0266.jpg,,,
+bench_0267,images/bench_0267.jpg,,,
+bench_0268,images/bench_0268.jpg,,,
+bench_0269,images/bench_0269.jpg,,,
+bench_0270,images/bench_0270.jpg,,,
+bench_0271,images/bench_0271.jpg,,,
+bench_0272,images/bench_0272.jpg,DCAR,LIMOUSINE,text
+bench_0273,images/bench_0273.jpg,AUTOKINGDOM;MINH CHÂU LIMOUSINE;FORD,LIMOUSINE;TRANSIT,text;text;text
+bench_0274,images/bench_0274.jpg,,,
+bench_0275,images/bench_0275.jpg,MAYBACH,,text
+bench_0276,images/bench_0276.jpg,DCAR,DCAR LIMOUSINE,logo
+bench_0277,images/bench_0277.jpg,,,
+bench_0278,images/bench_0278.jpg,,Limousine,
+bench_0279,images/bench_0279.jpg,,,
+bench_0280,images/bench_0280.jpg,,,
+bench_0281,images/bench_0281.jpg,,,
+bench_0282,images/bench_0282.jpg,Ford,,text
+bench_0283,images/bench_0283.jpg,,,
+bench_0284,images/bench_0284.jpg,,,
+bench_0285,images/bench_0285.jpg,,,
+bench_0286,images/bench_0286.jpg,meiji,,text
+bench_0287,images/bench_0287.jpg,Abbott,Ensure,text
+bench_0288,images/bench_0288.jpg,,,
+bench_0289,images/bench_0289.jpg,PRAXIS,,text
+bench_0290,images/bench_0290.jpg,,,
+bench_0291,images/bench_0291.jpg,,,
+bench_0292,images/bench_0292.jpg,,,
+bench_0293,images/bench_0293.jpg,,,
+bench_0294,images/bench_0294.jpg,,,
+bench_0295,images/bench_0295.jpg,,,
+bench_0296,images/bench_0296.jpg,,,
+bench_0297,images/bench_0297.jpg,,,
+bench_0298,images/bench_0298.jpg,,,
+bench_0299,images/bench_0299.jpg,,,
+bench_0300,images/bench_0300.jpg,PRO CALIBER,,text
+bench_0301,images/bench_0301.jpg,ICREO,ICREO BALANCE MILK;ICREO GROW-UP MILK,text
+bench_0302,images/bench_0302.jpg,LANCÔME,,text
+bench_0303,images/bench_0303.jpg,,,
+bench_0304,images/bench_0304.jpg,Nestlé,NAN OPTIPRO 1;NAN OPTIPRO 2;NAN OPTIPRO 3,logo
+bench_0305,images/bench_0305.jpg,,,
+bench_0306,images/bench_0306.jpg,USADairy,ColosBaby,logo
+bench_0307,images/bench_0307.jpg,,,
+bench_0308,images/bench_0308.jpg,Abbott,Similac Total Protection,logo
+bench_0309,images/bench_0309.jpg,Abbott,Similac,text
+bench_0310,images/bench_0310.jpg,Abbott,Similac Total Protection,text
+bench_0311,images/bench_0311.jpg,,,
+bench_0312,images/bench_0312.jpg,VIET D.E.L.T.A,,text
+bench_0313,images/bench_0313.jpg,,,
+bench_0314,images/bench_0314.jpg,,,
+bench_0315,images/bench_0315.jpg,,,
+bench_0316,images/bench_0316.jpg,B.O Tea,,text
+bench_0317,images/bench_0317.jpg,B.O Tea,,text
+bench_0318,images/bench_0318.jpg,B.0 Tea,,text
+bench_0319,images/bench_0319.jpg,B.O Tea,,text
+bench_0320,images/bench_0320.jpg,B.O Tea,,text
+bench_0321,images/bench_0321.jpg,B.O. tea,,text
+bench_0322,images/bench_0322.jpg,B.O Tea,,text
+bench_0323,images/bench_0323.jpg,B.O Tea,B.O Tea Milk Tea & Tea,text
+bench_0324,images/bench_0324.jpg,B.O tea,,text
+bench_0325,images/bench_0325.jpg,NHAT MINH TRADING & SERVICE,,text
+bench_0326,images/bench_0326.jpg,,,
+bench_0327,images/bench_0327.jpg,VTN GLOBAL,,text
+bench_0328,images/bench_0328.jpg,,,
+bench_0329,images/bench_0329.jpg,MELIÃ,,text
+bench_0330,images/bench_0330.jpg,MELIÃ VINEPEARL PHU QUOC,,text
+bench_0331,images/bench_0331.jpg,,,
+bench_0332,images/bench_0332.jpg,,,
+bench_0333,images/bench_0333.jpg,,,
+bench_0334,images/bench_0334.jpg,,,
+bench_0335,images/bench_0335.jpg,,,
+bench_0336,images/bench_0336.jpg,BTNature;Oli,Skim Instant Milk Powder,text;logo
+bench_0337,images/bench_0337.jpg,BTNature,Skim Instant Milk Powder,text
+bench_0338,images/bench_0338.jpg,,Sữa tươi dạng viên HiKid,
+bench_0339,images/bench_0339.jpg,HiKid,Kẹo Sữa Hikid Socola - Dạng Viên,text
+bench_0340,images/bench_0340.jpg,Hiki,,text
+bench_0341,images/bench_0341.jpg,,,
+bench_0342,images/bench_0342.jpg,,Trần bông 2 mặt sọc ngang nhỏ,
+bench_0343,images/bench_0343.jpg,,,
+bench_0344,images/bench_0344.jpg,,,
+bench_0345,images/bench_0345.jpg,,Áo khoác trần bông,
+bench_0346,images/bench_0346.jpg,,,
+bench_0347,images/bench_0347.jpg,,,
+bench_0348,images/bench_0348.jpg,,,
+bench_0349,images/bench_0349.jpg,,,
+bench_0350,images/bench_0350.jpg,,,
+bench_0351,images/bench_0351.jpg,,MUỐI BÉO TỐP MỠ;MỠ HÀNH DẬU TÔI,
+bench_0352,images/bench_0352.jpg,,,
+bench_0353,images/bench_0353.jpg,,,
+bench_0354,images/bench_0354.jpg,,,
+bench_0355,images/bench_0355.jpg,,,
+bench_0356,images/bench_0356.jpg,,,
+bench_0357,images/bench_0357.jpg,,,
+bench_0358,images/bench_0358.jpg,,,
+bench_0359,images/bench_0359.jpg,,,
+bench_0360,images/bench_0360.jpg,,,
+bench_0361,images/bench_0361.jpg,Samsung,,logo
+bench_0362,images/bench_0362.jpg,,,
+bench_0363,images/bench_0363.jpg,,,
+bench_0364,images/bench_0364.jpg,,,
+bench_0365,images/bench_0365.jpg,,TRÀ TÚI LỌC DÒI TÍA,
+bench_0366,images/bench_0366.jpg,miniKids,,text
+bench_0367,images/bench_0367.jpg,minikids.vn,,text
+bench_0368,images/bench_0368.jpg,minikids;NUTRICARE,COLOS;metacare;GROW PLUS;Pedia,text;both
+bench_0369,images/bench_0369.jpg,NUTRICARE,COLOS GROW PLUS;meta Care;SMARTA GROW,both
+bench_0370,images/bench_0370.jpg,minikids,COLOSTOP,text
+bench_0371,images/bench_0371.jpg,minikids;Colostop,SỮA TƯƠI,text;text
+bench_0372,images/bench_0372.jpg,minikids;Colostop,,text;both
+bench_0373,images/bench_0373.jpg,minikids;Oliver,Sữa Bột Pha Sẵn S100 OPTIMUM,text;text
+bench_0374,images/bench_0374.jpg,minikids,Dr. NANE OPTI-GOLD;GROW PLUS;WINTOP;Moonti Pedia;COLOSTOP sure;Lipid One,text
+bench_0375,images/bench_0375.jpg,minikids;Bobby;BABY PANTS;molfix;Huggies,TÃ BỈM,text;text;text;text;text
+bench_0376,images/bench_0376.jpg,miniKids;SureNest;Dr. NANE;JO NEST,YẾN SÀO CAO CẤP,text;text;text;text
+bench_0377,images/bench_0377.jpg,minikids;VITADairy;ColosBaby;Oggi,Sữa bột pha sẵn;ColosBaby;Oggi GOLD,text;text;text;text
+bench_0378,images/bench_0378.jpg,,,
+bench_0379,images/bench_0379.jpg,BG DOOR,,text
+bench_0380,images/bench_0380.jpg,,,
+bench_0381,images/bench_0381.jpg,Similac;GROW;Ensure GOLD;Pedia Sure,,text;text;text;text
+bench_0382,images/bench_0382.jpg,Similac;Abbott,Similac,text;text
+bench_0383,images/bench_0383.jpg,Abbott,Similac,text
+bench_0384,images/bench_0384.jpg,Abbott,Abbott GROW,text
+bench_0385,images/bench_0385.jpg,Abbott,Abbott GROW GOLD,text
+bench_0386,images/bench_0386.jpg,Abbott,PediaSure,logo
+bench_0387,images/bench_0387.jpg,Similac,Similac Total Comfort,text
+bench_0388,images/bench_0388.jpg,Abbott,Abbott GROW,text
+bench_0389,images/bench_0389.jpg,Abbott,Similac NeoSure,text
+bench_0390,images/bench_0390.jpg,,,
+bench_0391,images/bench_0391.jpg,NESCAFE,Espresso Roast,text
+bench_0392,images/bench_0392.jpg,,,
+bench_0393,images/bench_0393.jpg,,,
+bench_0394,images/bench_0394.jpg,,,
+bench_0395,images/bench_0395.jpg,,Tinh Dầu Tràm,
+bench_0396,images/bench_0396.jpg,,Tinh Dầu Tràm,
+bench_0397,images/bench_0397.jpg,,,
+bench_0398,images/bench_0398.jpg,MẠNH HÙNG MOBILE,,text
+bench_0399,images/bench_0399.jpg,,,
+bench_0400,images/bench_0400.jpg,,,
+bench_0401,images/bench_0401.jpg,,,
+bench_0402,images/bench_0402.jpg,,,
+bench_0403,images/bench_0403.jpg,,,
+bench_0404,images/bench_0404.jpg,,,
+bench_0405,images/bench_0405.jpg,,,
+bench_0406,images/bench_0406.jpg,,,
+bench_0407,images/bench_0407.jpg,,,
+bench_0408,images/bench_0408.jpg,VitaDairy,ColosBaby LACTOFERRIN,text
+bench_0409,images/bench_0409.jpg,VitaDairy,ColosBaby GOLD,logo
+bench_0410,images/bench_0410.jpg,VitaDairy,ColosGain,logo
+bench_0411,images/bench_0411.jpg,,,
+bench_0412,images/bench_0412.jpg,,,
+bench_0413,images/bench_0413.jpg,,,
+bench_0414,images/bench_0414.jpg,,,
+bench_0415,images/bench_0415.jpg,,,
+bench_0416,images/bench_0416.jpg,TH,TH true YOGURT Creamy,text
+bench_0417,images/bench_0417.jpg,TH,YOGURT;Sữa Chua Kem Ngây Tự Nhiên,both
+bench_0418,images/bench_0418.jpg,TH,TH true YOGURT Creamy,logo
+bench_0419,images/bench_0419.jpg,TH,Sữa Chua Kem Ngây Tự Nhiên,text
+bench_0420,images/bench_0420.jpg,TH,TH true YOGURT Creamy,logo
+bench_0421,images/bench_0421.jpg,,,
+bench_0422,images/bench_0422.jpg,,,
+bench_0423,images/bench_0423.jpg,,,
+bench_0424,images/bench_0424.jpg,KICHI KICHI,,text
+bench_0425,images/bench_0425.jpg,ColosBaby,ColosBaby,text
+bench_0426,images/bench_0426.jpg,KIM HƯNG;laVie;SATORI;Vihawa;Bidrico,,text;text;text;text;text
+bench_0427,images/bench_0427.jpg,,,
+bench_0428,images/bench_0428.jpg,VitaDairy,Oggi,logo
+bench_0429,images/bench_0429.jpg,Rolls-Royce,,logo
+bench_0430,images/bench_0430.jpg,Rolls-Royce,,logo
+bench_0431,images/bench_0431.jpg,VUA BÁNH MÌ SÀI GÒN,,text
+bench_0432,images/bench_0432.jpg,,,
+bench_0433,images/bench_0433.jpg,COOL,BODY SOAP,text
+bench_0434,images/bench_0434.jpg,COOL,BODY SOAP,both
+bench_0435,images/bench_0435.jpg,PHARMAACT,Sữa tắm dành cho nam;BODY SOAP,text
+bench_0436,images/bench_0436.jpg,PHARMAACT,BODY SOAP,text
+bench_0437,images/bench_0437.jpg,,,
+bench_0438,images/bench_0438.jpg,Vinamilk,sữa tươi,text
+bench_0439,images/bench_0439.jpg,,,
+bench_0440,images/bench_0440.jpg,Vinamilk,Sữa Tươi,text
+bench_0441,images/bench_0441.jpg,WMF,,both
+bench_0442,images/bench_0442.jpg,,,
+bench_0443,images/bench_0443.jpg,,,
+bench_0444,images/bench_0444.jpg,,,
+bench_0445,images/bench_0445.jpg,,,
+bench_0446,images/bench_0446.jpg,,,
+bench_0447,images/bench_0447.jpg,ESTEE LAUDER,Advanced Night Cleansing Gel with 15 Amino Acids,text
+bench_0448,images/bench_0448.jpg,,,
+bench_0449,images/bench_0449.jpg,,,
+bench_0450,images/bench_0450.jpg,ESTĒE LAUDER,,text
+bench_0451,images/bench_0451.jpg,MILO,MILO PRO;MILO COFFEE,logo
+bench_0452,images/bench_0452.jpg,ARISTINO GOLF,,text
+bench_0453,images/bench_0453.jpg,ARISTINO GOLF,,text
+bench_0454,images/bench_0454.jpg,ARISTINO GOLF,,text
+bench_0455,images/bench_0455.jpg,ARISTINO GOLF,,text
+bench_0456,images/bench_0456.jpg,,,
+bench_0457,images/bench_0457.jpg,laVie;Viva,,text;text
+bench_0458,images/bench_0458.jpg,laVie;Viva,,text;text
+bench_0459,images/bench_0459.jpg,laVie,,text
+bench_0460,images/bench_0460.jpg,,,
+bench_0461,images/bench_0461.jpg,,,
+bench_0462,images/bench_0462.jpg,VitaDairy,ColosBaby,text
+bench_0463,images/bench_0463.jpg,VitaDairy,ColosBaby,text
+bench_0464,images/bench_0464.jpg,VitaDairy,ColosBaby,text
+bench_0465,images/bench_0465.jpg,VitaDairy,ColosBaby D3 K2 CANXI,logo
+bench_0466,images/bench_0466.jpg,VitaDairy,ColosOpti,text
+bench_0467,images/bench_0467.jpg,VitaDairy,ColosOpti,logo
+bench_0468,images/bench_0468.jpg,VitaDairy,CALOKID GOLD,logo
+bench_0469,images/bench_0469.jpg,VitaDairy,ColosBaby,logo
+bench_0470,images/bench_0470.jpg,VitaDairy,ColosBaby LACTOFERRIN,text
+bench_0471,images/bench_0471.jpg,VitaDairy,ColosBaby,text
+bench_0472,images/bench_0472.jpg,VitaDairy,ColosBaby,text
+bench_0473,images/bench_0473.jpg,VitaDairy,ColosGain,logo
+bench_0474,images/bench_0474.jpg,VitaDairy,CaloSure gold,logo
+bench_0475,images/bench_0475.jpg,VitaDairy,CaloSure America,text
+bench_0476,images/bench_0476.jpg,VitaDairy,ColosBaby GOLD,text
+bench_0477,images/bench_0477.jpg,,,
+bench_0478,images/bench_0478.jpg,VitaDairy,ColosBaby,text
+bench_0479,images/bench_0479.jpg,VitaDairy,ColosBaby,text
+bench_0480,images/bench_0480.jpg,VitaDairy,Colos Opti,logo
+bench_0481,images/bench_0481.jpg,VitaDairy,Colos Opti,text
+bench_0482,images/bench_0482.jpg,VitaDairy,ColosBaby GOLD,logo
+bench_0483,images/bench_0483.jpg,VitaDairy,ColosGain,logo
+bench_0484,images/bench_0484.jpg,VitaDairy,ColosBaby,text
+bench_0485,images/bench_0485.jpg,VitaDairy,ColosBaby,text
+bench_0486,images/bench_0486.jpg,VitaDairy,CALOKID GOLD,logo
+bench_0487,images/bench_0487.jpg,Vinamilk,Sữa đặc Tài Lộc,text
+bench_0488,images/bench_0488.jpg,CHIN-SU,Hạt nêm;Tương ớt,text
+bench_0489,images/bench_0489.jpg,fami,Sữa đậu nành fami,both
+bench_0490,images/bench_0490.jpg,CHIN-SU,Tương ớt CHIN-SU,text
+bench_0491,images/bench_0491.jpg,P/S,Kem đánh răng,text
+bench_0492,images/bench_0492.jpg,NET,Nước giặt,text
+bench_0493,images/bench_0493.jpg,Orita,Gel tắm Orita Hương Hoa hồng,text
+bench_0494,images/bench_0494.jpg,,,
+bench_0495,images/bench_0495.jpg,Bavaria,,text
+bench_0496,images/bench_0496.jpg,,,
+bench_0497,images/bench_0497.jpg,,,
+bench_0498,images/bench_0498.jpg,,,
+bench_0499,images/bench_0499.jpg,,Bún Bò Nam Bộ,
+bench_0500,images/bench_0500.jpg,Mẹ Sữa,Mì Chua Cay,text
+bench_0501,images/bench_0501.jpg,TIỆM ĂN MẸ SỮA,BÚN BÒ NAM BỘ;MÌ CHUA CAY;GÀ TẤN RAU CỦ,text
+bench_0502,images/bench_0502.jpg,GIẢI KHÁT MẸ SỮA,,text
+bench_0503,images/bench_0503.jpg,,,
+bench_0504,images/bench_0504.jpg,Milo;Nestle,Milo Nestle Thái Nhân Sữa,both;text
+bench_0505,images/bench_0505.jpg,Sweet Corn,kem Trái Bắp,logo
+bench_0506,images/bench_0506.jpg,Moni's,KEM CHOCOLATE;KEM HƯƠNG CHOCOLATE,logo
+bench_0507,images/bench_0507.jpg,H,Soccola Vani,text
+bench_0508,images/bench_0508.jpg,Moni's,KEM DỪA NON;KEM ĐẬU ĐỎ;KEM KHOAI MÔN;KEM CỐM SỮA;KEM SẦU RIÊNG;KEM ĐẬU XANH;KEM DẺO TRUYỀN THỐNG,logo
+bench_0509,images/bench_0509.jpg,Aice,Strawberry Cone;ỐC QUẾ DÂU,both
+bench_0510,images/bench_0510.jpg,Aice,Chocomelt Cone;ỐC QUẾ SOCOLA,both
+bench_0511,images/bench_0511.jpg,Hùng Linh Ice-Cream;Hùng Linh Plus,Kem Sữa Bắp;Corn Milk Ice Cream,text;text
+bench_0512,images/bench_0512.jpg,Yili;Toyday,Socola & Mạch Nha CHOC-O-MALT,logo;logo
+bench_0513,images/bench_0513.jpg,Ohana,Phô Mai Ohana;Cheese Party,text
+bench_0514,images/bench_0514.jpg,Joyday,Crunchy Blueberry Yogurt,both
+bench_0515,images/bench_0515.jpg,OHANA,ỐC QUẾ HẠT DẺ,text
+bench_0516,images/bench_0516.jpg,Moni's,BLACK BUBBLES MILK TEA ICE CREAM;Kem Trà Sữa Trân Châu,logo
+bench_0517,images/bench_0517.jpg,TRÀNG TIỀN;Kem Kakao,Kem Kakao,text;text
+bench_0518,images/bench_0518.jpg,KEM Chocolate GIÒN,KEM Chocolate GIÒN,text
+bench_0519,images/bench_0519.jpg,,,
+bench_0520,images/bench_0520.jpg,Yakult,Yakult,text
+bench_0521,images/bench_0521.jpg,YAKULT,SỮA UỐNG LÊN MEN YAHULT,text
+bench_0522,images/bench_0522.jpg,Yakult,Yakult Light;HM94 MASK,logo
+bench_0523,images/bench_0523.jpg,Yakult,Yakult Light,text
+bench_0524,images/bench_0524.jpg,Yakult,Yakult Hương Đào,both
+bench_0525,images/bench_0525.jpg,Yakult,Yakult Hương Đào;Yakult Light,text
+bench_0526,images/bench_0526.jpg,Yakult,SỮA UỐNG LÊN MEN YAKULT,text
+bench_0527,images/bench_0527.jpg,Yakult,Yakult Hương Đào,text
+bench_0528,images/bench_0528.jpg,YAKULT,,text
+bench_0529,images/bench_0529.jpg,Yakult,Yakult Hương Đào,logo
+bench_0530,images/bench_0530.jpg,Yakult,SỮA UỐNG LÊN MEN;THỰC PHẨM BỔ SUNG,both
+bench_0531,images/bench_0531.jpg,Yakult,,text
+bench_0532,images/bench_0532.jpg,Yakult,,both
+bench_0533,images/bench_0533.jpg,Yakult,Sữa uống lên men,both
+bench_0534,images/bench_0534.jpg,Yakult,SUA UONG LEN MEN,text
+bench_0535,images/bench_0535.jpg,Yakult,,text
+bench_0536,images/bench_0536.jpg,Yakult,SỮA UỐNG LÊN MEN Yakult,both
+bench_0537,images/bench_0537.jpg,Yakult,Sữa uống lên men,both
+bench_0538,images/bench_0538.jpg,Yakult,,both
+bench_0539,images/bench_0539.jpg,Yakult,,text
+bench_0540,images/bench_0540.jpg,Yakult,,both
+bench_0541,images/bench_0541.jpg,Yakult,Yakult Light;Yakult Hương Đào,both
+bench_0542,images/bench_0542.jpg,Healthy Care;Glucerna;Ensure,Bone & Joint;Glucerna Vanilla Flavour;Ensure Original nutrition powder,text;text;text
+bench_0543,images/bench_0543.jpg,MINMIN,,text
+bench_0544,images/bench_0544.jpg,,,
+bench_0545,images/bench_0545.jpg,,,
+bench_0546,images/bench_0546.jpg,,,
+bench_0547,images/bench_0547.jpg,HÙNG LINH,KEM SỐ CỐ LA PHỦ HẠT HƯỚNG DƯƠNG,text
+bench_0548,images/bench_0548.jpg,HUNG LINH ICE-CREAM,KEM SỮA DỪA,text
+bench_0549,images/bench_0549.jpg,HUNG LINH ICE-CREAM,Kem Hương Sầu Riêng,text
+bench_0550,images/bench_0550.jpg,Kem Hùng Linh,Kem Cacao,both
+bench_0551,images/bench_0551.jpg,,,
+bench_0552,images/bench_0552.jpg,,Corn Milk Ice Cream,
+bench_0553,images/bench_0553.jpg,,,
+bench_0554,images/bench_0554.jpg,,,
+bench_0555,images/bench_0555.jpg,Tô Châu,,text
+bench_0556,images/bench_0556.jpg,HUNG LINH;HUNG LINH ICE-CREAM,KEM ĐẬU XANH CỐT DỪA,text;text
+bench_0557,images/bench_0557.jpg,,KEM Chocolate GIÒN,
+bench_0558,images/bench_0558.jpg,HÙNG LINH,KEM KHOAI MÔN CỐT DỪA,text;logo
+bench_0559,images/bench_0559.jpg,Hùng Linh,Kem Dưa Bở,text
+bench_0560,images/bench_0560.jpg,,,
+bench_0561,images/bench_0561.jpg,,,
+bench_0562,images/bench_0562.jpg,,,
+bench_0563,images/bench_0563.jpg,,Kem Trà Sữa Trân Châu,
+bench_0564,images/bench_0564.jpg,HÙNG LINH ICE-CREAM;HÙNG LINH COOL,KEM CA CAO HƯƠNG TRỨNG,text;text
+bench_0565,images/bench_0565.jpg,KEM PHUONG,,text
+bench_0566,images/bench_0566.jpg,HÙNG LINH COOL,KEM HƯƠNG SẦU RIÊNG,text
+bench_0567,images/bench_0567.jpg,,KEM OREMON Matcha,
+bench_0568,images/bench_0568.jpg,Moni's,KEM SÂU RIÊNG,logo
+bench_0569,images/bench_0569.jpg,KEM HÙNG LINH,Kem Cacao,text
+bench_0570,images/bench_0570.jpg,Moni's,Kem Trà Sữa Trân Châu,logo
+bench_0571,images/bench_0571.jpg,VitaDairy,CALOKID,logo
+bench_0572,images/bench_0572.jpg,VitaDairy,Oggi GOLD,text
+bench_0573,images/bench_0573.jpg,VitaDairy,Oggi,text
+bench_0574,images/bench_0574.jpg,ColosBaby,CLBB D3K2,text
+bench_0575,images/bench_0575.jpg,Colosbaby,Colosbaby Thanh Nhạt 800g;ColosBaby Lactoferrin 800G,both
+bench_0576,images/bench_0576.jpg,ColosBaby,Colosbaby Thanh Nhạt 800g;ColosBaby Lactoferrin 800G,text
+bench_0577,images/bench_0577.jpg,VitaDairy,ColosBaby LACTOFERRIN,logo
+bench_0578,images/bench_0578.jpg,Abbott;inochi,"Similac;Ensure GOLD;Ấm dun siêu tốc 1,8 L",text;text
+bench_0579,images/bench_0579.jpg,SIMILAC,,text
+bench_0580,images/bench_0580.jpg,,Similac Total Protection,
+bench_0581,images/bench_0581.jpg,Abbott;SUNHOUSE,GROW;Ensure GOLD,text;text
+bench_0582,images/bench_0582.jpg,Ensure,Ensure GOLD,text

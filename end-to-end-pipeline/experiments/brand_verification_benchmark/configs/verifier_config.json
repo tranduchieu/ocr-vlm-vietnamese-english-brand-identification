@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.1.0-prep",
+  "frozen": true,
+  "frozen_at": "2026-09-17T16:20:00+07:00",
+  "note": "POST-SANITY-CHECK PROTOCOL AMENDMENT, PRE-BLIND FINAL FREEZE (2026-09-17 16:20). Supersedes the earlier 2026-09-17 13:20 freeze (SELF_ONLY=accept, preserved read-only at configs/pre_amendment/verifier_config.json), which was found to collapse exactly to M2 on validation (0/427 differences -- see results/validation/pre_amendment/m2_vs_m3_frozen_sanity.json) and was therefore excluded as not genuinely source-aware. Re-ran the full validation pipeline from scratch (fresh 427-image draft regeneration, fresh M0-M3 scoring) and selected SELF_ONLY=exact after confirming it is behaviorally distinguishable from M2 (results/validation/m2_vs_m3_frozen_sanity.json: 1/427 images differ). This is a final freeze pending only the (not-yet-run) 582-image blind benchmark.",
+
+  "m0_no_verification": {
+    "description": "No brand-evidence gate. accepted_brands = candidate_brands always. Still passes through the shared final summary-consistency audit and finalize().",
+    "rejects_any_candidate": false
+  },
+
+  "m1_external_ocr_only": {
+    "description": "Brand DECISION stage only. Reuses production pipeline.anchor_gate(brand, product, summary, ocr_text, vlm_ocr='') unmodified. Real vlm_ocr is still used by shared finalize() downstream -- M1 is 'external-OCR-only brand verification', not an OCR-only pipeline.",
+    "matcher": "pipeline.contains (fuzzy, FUZZY_THRESHOLD=0.85, imported unmodified)",
+    "vlm_ocr_used_in_brand_decision": false,
+    "vlm_ocr_used_in_finalize": true
+  },
+
+  "m2_simple_fusion": {
+    "description": "Current PRODUCTION verification behavior. Reuses pipeline.anchor_gate(brand, product, summary, ocr_text, vlm_ocr) unmodified, with the real vlm_ocr. Equal-trust OR-fusion of external OCR and VLM self-transcription; no source distinction.",
+    "matcher": "pipeline.contains (fuzzy, FUZZY_THRESHOLD=0.85, imported unmodified)",
+    "vlm_ocr_used_in_brand_decision": true
+  },
+
+  "m3_source_aware": {
+    "description": "Source-aware verification. Computes ext_match and self_match SEPARATELY (never concatenates external_ocr+vlm_ocr before matching) then classifies a support state before applying a policy.",
+    "supported_states": ["BOTH", "EXTERNAL_ONLY", "SELF_ONLY", "UNSUPPORTED"],
+    "conflict_state_included": false,
+    "conflict_state_reason": "No operational definition of CONFLICT exists in current code or data (no region attribution, no brand lexicon/NER, no spatial evidence). Per explicit instruction, CONFLICT is deliberately excluded from the first legitimate benchmark. If introduced later it must be separately justified and validated, not merely re-added because an earlier planning document mentioned it.",
+    "matcher": {
+      "external": "pipeline.contains(external_ocr, candidate)",
+      "self": "pipeline.contains(vlm_ocr, candidate)",
+      "note": "Both calls use the SAME imported pipeline.contains() fuzzy matcher as M1/M2, applied separately per source instead of on a concatenated haystack. This keeps M2 vs M3 a controlled comparison of FUSION POLICY, not of matcher quality."
+    },
+    "match_type_diagnostic": {
+      "enabled": false,
+      "note": "Optional per instructions -- only implement if actually needed by the frozen SELF_ONLY policy or for diagnostics. Placeholder values if enabled: exact | accent_normalized | alnum | fuzzy | word_fuzzy | none. Not a confidence score -- pipeline.contains() returns bool only, no calibrated confidence exists anywhere in the codebase."
+    },
+    "policy": {
+      "BOTH": "accept",
+      "EXTERNAL_ONLY": "accept",
+      "SELF_ONLY": "exact",
+      "UNSUPPORTED": "reject"
+    },
+    "policy_frozen": true,
+    "policy_frozen_at": "2026-09-17T16:20:00+07:00",
+    "policy_selection_dataset": "data/processed/val.jsonl (427 images) -- the ORIGINAL LoRA validation split, reused here as the verifier-policy validation set per BENCHMARK_EXPERIMENT_PLAN.md section 3.1. Fixed drafts regenerated FRESH for the protocol amendment (not reusing the pre-amendment drafts) -- see artifacts/fixed_drafts/validation/fixed_drafts_validation_meta.json.",
+    "policy_selection_procedure": "PROTOCOL AMENDMENT 2026-09-17: SELF_ONLY='accept' excluded up front (proven equivalent to M2 in the pre-amendment sanity check). Ran M3 twice on the same fresh 427-image validation fixed drafts: SELF_ONLY='reject' (Policy A) vs SELF_ONLY='exact' (Policy B -- accept only when pipeline.contains_exact(vlm_ocr, candidate) is True; external OCR not consulted for this state). Scored via scripts/score_entities.py --expected-count 427 against artifacts/fixed_drafts/validation/val_gt_derived.csv.",
+    "policy_selection_result": {
+      "reject": {"brand_precision": 0.7451, "brand_recall": 0.4634, "brand_f1": 0.5714, "ubr": 0.2549, "cbr": 0.96},
+      "exact": {"brand_precision": 0.7405, "brand_recall": 0.4756, "brand_f1": 0.5792, "ubr": 0.2595, "cbr": 0.984},
+      "selected": "exact",
+      "reason": "Primary criterion (declared before comparison): higher Brand F1. exact=0.5792 > reject=0.5714, not a tie, so no UBR/CBR tie-break needed. Note: reject's metrics are numerically identical to M1's (SELF_ONLY=reject makes M3's decision logic equivalent to accept-iff-ext_match, i.e. M1) -- expected internal-consistency check.",
+      "delta_vs_m2": {"brand_f1": -0.0035, "ubr": 0.0016, "cbr": -0.008, "note": "Selected M3 does NOT beat M2 on Brand F1/UBR/CBR on this validation split -- reported as-is, not manipulated. See results/validation/m2_vs_m3_frozen_sanity.json for the full accepted/released-brand diff (1/427 images) proving this is NOT a collapse to M2."},
+      "scored_via": "scripts/score_entities.py --expected-count 427 against artifacts/fixed_drafts/validation/val_gt_derived.csv"
+    },
+    "policy_selection_result_PRE_AMENDMENT_SUPERSEDED": {
+      "note": "The ORIGINAL (2026-09-17 13:20) selection, superseded because 'accept' was later proven to collapse exactly to M2 -- kept only for audit trail. See configs/pre_amendment/verifier_config.json for the full original file.",
+      "reject": {"brand_precision": 0.7451, "brand_recall": 0.4634, "brand_f1": 0.5714, "ubr": 0.2549, "cbr": 0.96},
+      "accept": {"brand_precision": 0.7421, "brand_recall": 0.4797, "brand_f1": 0.5827, "ubr": 0.2579, "cbr": 0.992},
+      "selected": "accept",
+      "reason": "SUPERSEDED -- see policy_selection_result above for the current, valid selection."
+    },
+    "policy_selection_must_precede": "any scoring run against hackathon_benchmark_dataset/benchmark_gt_final.csv (582 blind images)"
+  },
+
+  "shared_cleanup": {
+    "implementation": "experiments/brand_verification_benchmark/methods/common.py:apply_brand_cut()",
+    "reuses_from_production": [
+      "pipeline.split_multi", "pipeline._don_cau", "pipeline.contains_exact"
+    ],
+    "locally_duplicated_from_production": [
+      "the connector-stripping regex block inside pipeline.anchor_gate() (pipeline.py roughly lines 293-307) -- NOT separable as an importable function without a small refactor of pipeline.py, which this phase is not authorized to perform. Duplicated verbatim and covered by a regression test (tests/test_cleanup_equivalence.py) comparing benchmark-local apply_brand_cut() output against unmodified pipeline.anchor_gate() output for M1/M2 cases, to catch drift automatically."
+    ],
+    "recommended_followup": "Extract pipeline.anchor_gate()'s decision half (lines ~288-291) from its cleanup half (lines ~293-322) into pipeline._apply_cut(cut_list, product, summary) inside src/pipeline.py itself, as a behavior-preserving refactor, with explicit approval -- see BENCHMARK_FEASIBILITY_REPORT.md section 8. Not performed in this task."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "method": "m4_multiview",
+  "description": "Multi-view generate-and-verify. Separate from verifier_config.json on purpose: that file (and its hash in manifests/freeze_manifest.json) belongs to the frozen M0-M3 experiment and must stay byte-identical.",
+  "frozen": false,
+  "frozen_at": null,
+  "frozen_on": null,
+  "dev_splits": ["validation", "gold"],
+  "blind_rule": "The 582-image blind benchmark may only be processed with M4 after `frozen` is true. Policy and view set are selected on validation (design) and gold (confirmation) only.",
+  "policy": {
+    "views": ["base"],
+    "min_votes_self_only": 1,
+    "min_votes_any": 1,
+    "ext_fuzzy": true,
+    "insert_missing": true,
+    "template": "Thương hiệu: {brands}."
+  }
+}

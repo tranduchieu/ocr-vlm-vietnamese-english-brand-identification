@@ -1,0 +1,48 @@
+{
+  "note": "FROZEN before any B0/B1/L0 generation (Final Simple Baseline Benchmark). Defines all three configs together since they share everything except lora_dir and per-image ocr_text. Do NOT edit after smoke test passes without re-freezing.",
+  "frozen_at": "2026-09-17T22:15:00+07:00",
+  "shared": {
+    "base_model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "dtype": "bfloat16",
+    "device": "cuda:0",
+    "min_pixels": 16384,
+    "max_pixels": 262144,
+    "do_sample": false,
+    "max_new_tokens": 200,
+    "pad_token_id": "eos_token_id",
+    "prompt_hash": "7c87e7650f53ee00b337494a978236d7f3809c15a8780dd5839e7495781a3e9d",
+    "generation_config_hash": "d1915dd3486866ba4d3634d181055d1e2eab3de128f40c54c771e3ebf2aee81b",
+    "prompt_source": "src/pipeline.py SYSTEM + USER_TMPL + RETRY_TMPL, unmodified, imported directly -- no new prompt authored for any baseline",
+    "retry_logic": "identical to production: VLM.batch_retry() with RETRY_TMPL for images where the first pass returned empty summary but n_ocr_regions>0",
+    "finalization": "shared no-verification semantics identical to methods/m0_no_verification.py (accepted_brands = candidate_brands, released re-audited post run_shared_finalize())",
+    "dataset": "the same 582-image final blind/test set as Batch C -- image IDs and files read from artifacts/fixed_drafts/fixed_drafts.jsonl (filename field), never a folder scan",
+    "gt": "hackathon_benchmark/hackathon_benchmark_dataset/benchmark_gt_final.csv (identical to Batch C)"
+  },
+  "systems": {
+    "B0": {
+      "description": "Base Qwen2.5-VL-3B-Instruct, image-only, no verification",
+      "lora_dir": null,
+      "adapter_loaded_expected": false,
+      "ocr_mode": "empty (external OCR evidence unavailable -- same prompt template, ocr text is empty string, renders the template's own built-in '(không đọc được chữ nào)' placeholder)",
+      "ocr_source": "none"
+    },
+    "B1": {
+      "description": "Base Qwen2.5-VL-3B-Instruct + external OCR, no verification",
+      "lora_dir": null,
+      "adapter_loaded_expected": false,
+      "ocr_mode": "canonical",
+      "ocr_source": "artifacts/fixed_drafts/fixed_drafts.jsonl external_ocr field (reused verbatim from Batch C, OCR never re-run)"
+    },
+    "L0": {
+      "description": "LoRA-adapted Qwen2.5-VL-3B-Instruct, image-only, no verification",
+      "lora_dir": "models/qwen25vl3b-lora",
+      "adapter_loaded_expected": true,
+      "ocr_mode": "empty (external OCR evidence unavailable)",
+      "ocr_source": "none"
+    }
+  },
+  "safety_assertions": {
+    "B0_B1": "driver script asserts lora_dir argument is None before calling VLM(lora) -- adapter_loaded logged and must be False",
+    "L0": "driver script asserts lora_dir argument equals models/qwen25vl3b-lora before calling VLM(lora) -- adapter_loaded logged and must be True"
+  }
+}
